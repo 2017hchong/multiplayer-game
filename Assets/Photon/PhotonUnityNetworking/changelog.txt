@@ -3,9 +3,6 @@ PUN 2 Change Log
 Exit Games GmbH - www.photonengine.com - forum.photonengine.com
 
 
-v2.20.2 (04. August 2020)
-Fixed: Destroy code that caused a "Ev Destroy Failed." error log.
-
 v2.20.1 (03. August 2020)
 Fixed: An issue with Standalone builds in Unity 2019.4.x, which did not connect. The main loop was somehow not called if PhotonMono was created in RuntimeInitializeOnLoad callback.
 Changed: RuntimeInitializeOnLoad() should only happen in the Editor, where we may disable the Domain Reload.

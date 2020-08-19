@@ -1,9 +1,13 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
+using Photon.Voice.Unity;
+using Photon.Voice.PUN;
 
 public class SimplePlayerController : MonoBehaviour
 {
 
     // Update is called once per frame
+
     void Update()
     {
         //Move Front/Back
